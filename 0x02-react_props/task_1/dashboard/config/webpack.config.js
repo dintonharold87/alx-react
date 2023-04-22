@@ -35,9 +35,6 @@ module.exports = {
   },
   resolve: {
     extensions: ["*", ".js", ".jsx"],
-    alias: {
-      setupTests: path.resolve(__dirname, "config/setupTests.js"),
-    },
   },
   devServer: {
     static: "./dist",
