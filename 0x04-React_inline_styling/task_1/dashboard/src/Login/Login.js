@@ -1,5 +1,17 @@
 import React from "react";
+import { StyleSheet, css } from "aphrodite";
 import "./Login.css"
+
+const styles = StyleSheet.create({
+  "App-body" :{
+  fontSize: "1rem",
+  padding: "2em",
+  height: "45%",
+},
+input: {
+    margin: "10px",
+  },
+})
 
 function Login() {
   return (
